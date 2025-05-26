@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Iniciar Sesión</title>
+        <style>
+            .fondo {
+                background-color: #4CAF50;
+                padding: 30px;
+                border-radius: 10px;
+                width: fit-content;
+                margin: 50px auto;
+                color: white;
+                font-family: Arial, sans-serif;
+            }
+    
+            label, input {
+                display: block;
+                margin: 10px 0;
+            }
+    
+            input {
+                padding: 5px;
+                width: 200px;
+                border-radius: 5px;
+                border: none;
+            }
+    
+            .volver {
+                display: block;
+                text-align: center;
+                margin: 30px auto;
+                font-family: Arial, sans-serif;
+                color: #4CAF50;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="fondo">
+            <h2>Iniciar Sesión</h2>
+            <form>
+                <label for="usuario">Nombre de usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+                  
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                  
+                <label for="clave">Contraseña:</label>
+                <input type="password" id="clave" name="clave" required>
+                  
+                <label for="clave2">Repetir contraseña:</label>
+                <input type="password" id="clave2" name="clave2" required>
+                  
+                <input type="submit" value="Registrarse">
+            </form>
+        </div>
+        <a href="index.html" class="volver">Volver</a>
+    </body>
+</html>

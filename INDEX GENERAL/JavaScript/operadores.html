@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>operadores</title>
+        <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      margin-bottom: 40px;
+    }
+    .boton {
+      display: block;
+      margin: 10px auto;
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #f18d2f;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 200px;
+    }
+    .boton:hover {
+      background-color: #f18d2f;
+    }
+    input{
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .volver {
+            display: block;
+            text-align: center;
+            margin: 30px auto;
+            font-family: Arial, sans-serif;
+            color: #f18d2f;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Operaciones Aritméticas</h1>
+        <p>Elige las variables para ejecutar los cálculos</p>
+        <label for="a">a:</label>
+        <input type="number" id="a"><br>
+        <label for="b">b:</label>
+        <input type="number" id="b"><br>
+        <label for="c">c:</label>
+        <input type="text" id="c"><br>
+        <button class="boton" onclick="calcular()">calcular</button>
+     <script type="text/javascript" src="operadores/aritmetica.js"></script>
+<br>
+<h1>Operadores Comparativos</h1>
+<p>Selecciona dos números para comparar</p>
+<label for="a1">a:</label>
+        <input type="number" id="a1"><br>
+        <label for="b1">b:</label>
+        <input type="number" id="b1"><br>
+        <button class="boton" onclick="comparar()">comparar</button>
+     <script type="text/javascript" src="operadores/comparar.js"></script>
+    <br>
+    <h1>Operadores Lógicos</h1>
+    <p>Selecciona dos numeros para realizar la operación Lógica</p>
+    <label for="a2">a:</label>
+        <input type="number" id="a2"><br>
+        <label for="b2">b:</label>
+        <input type="number" id="b2"><br>
+        <button class="boton" onclick="verificar()">verificar</button>
+    <script type="text/javascript" src="operadores/logica.js"></script>
+    <br>
+    <h1>Operadores Bitwise</h1>
+    <p>Realiza operaciones con bits</p>
+    <label for="a3">a:</label>
+    <input type="number" id="a3"><br>
+        <label for="b3">b:</label>
+        <input type="number" id="b3"><br>
+        <button class="boton" onclick="bitwise()">bitwise</button>
+        <script src="operadores/bitwise.js"></script>
+        <br>
+        <h1>Asignar Operadores</h1>
+        <p>Elige dos variables</p>
+        <label for="a4">a:</label>
+    <input type="number" id="a4"><br>
+        <label for="b4">b:</label>
+        <input type="number" id="b4"><br>
+        <button class="boton" onclick="operadores()">operación</button>
+        <script src="operadores/operacion.js"></script>
+<br>
+<h1>Operador Condicional</h1>
+<p>Muestra una variable dependiendo del resultado de una operación</p>
+<label for="a5">a:</label>
+    <input type="number" id="a5"><br>
+        <label for="b5">b:</label>
+        <input type="number" id="b5"><br>
+        <button class="boton" onclick="condicion()">condicionar</button>
+        <script src="operadores/condicion.js"></script>
+<br>
+<h1>Operador typeof</h1>
+<p>Detecta que tipo de variable se ingresó</p>
+<label for="a6">a:</label>
+    <input id="a6"><br>
+        <label for="b6">b:</label>
+        <input id="b6"><br>
+        <button class="boton" onclick="tipo()">detectar</button>
+        <script src="operadores/tipo.js"></script>
+<a href="index-java.html" class="volver">Volver</a>
+    </body>
+</html>

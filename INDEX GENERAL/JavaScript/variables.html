@@ -1,0 +1,58 @@
+<html> 
+<head> 
+ <title>Variables</title>
+ <script type="text/javascript"> 
+var myVar = "global";
+function checkscope( ) { 
+var myVar = "local"; 
+document.getElementById("fondo").innerText = myVar; 
+} 
+</script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      margin-bottom: 40px;
+    }
+    .boton {
+      display: block;
+      margin: 10px auto;
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #f18d2f;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 200px;
+    }
+    .boton:hover {
+      background-color: #f18d2f;
+    }
+    .fondo{
+    background-color: #f18d2f;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 30px auto;
+    color: white;
+    font-family: Arial, sans-serif;
+    }
+    .volver {
+            display: block;
+            text-align: center;
+            margin: 30px auto;
+            font-family: Arial, sans-serif;
+            color: #f18d2f;
+        }
+    </style>
+</head> 
+<body> 
+ <button class="boton" onclick="checkscope()">Mostar Variable</button> 
+ <div id="fondo"></div>
+  <a href="index-java.html" class="volver">Volver</a>
+</body> 
+</html>

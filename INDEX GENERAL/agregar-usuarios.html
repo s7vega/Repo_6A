@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Iniciar Sesión</title>
+    <title>Buscar Usuario</title>
     <style>
         .fondo {
             background-color: #4CAF50;
@@ -33,20 +33,21 @@
             color: #4CAF50;
         }
     </style>
-</head>
-<body>
-    <div class="fondo">
-        <h2>Iniciar Sesión</h2>
+    </head>
+    <body>
+        <div class="fondo">
+        <h2>Agregar Usuario</h2>
         <form>
-            <label for="usuario">Usuario:</label>
+            <label for="Usuario">Nombre:</label>
             <input type="text" id="usuario" name="usuario" required>
-
-            <label for="clave">Contraseña:</label>
-            <input type="password" id="clave" name="clave" required>
-
-            <input type="submit" value="Ingresar" onclick="location.href='index.html'">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+            <label for="Usuario">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" required>
+            <label for="Usuario">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <input type="submit" value="Aceptar" onclick="location.href='index.html'" name="'usuario''apellido''telefono''email'">
         </form>
     </div>
     <a href="index.html" class="volver">Volver</a>
-</body>
-</html>
+    </body>
